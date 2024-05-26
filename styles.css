@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  line-height: 1.6;
+  background: #f4f4f4;
+  color: #341f1f;
+  padding: 0 20px;
+}
+
+header {
+  text-align: center;
+  padding: 20px 0;
+  background: #333;
+  color: #fff;
+}
+
+header h1 {
+  margin-bottom: 10px;
+}
+
+h4 {
+  font-weight: 500;
+}
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.left,
+.right {
+  flex: 1;
+  padding: 20px;
+  background: #fff;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.left {
+  flex: 2;
+}
+
+.right {
+  flex: 3;
+}
+
+h2 {
+  margin-bottom: 10px;
+  color: #333;
+  border-bottom: 2px solid #333;
+  padding-bottom: 5px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  background: #e4e4e4;
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.contact a,
+.skills a {
+  color: #333;
+  text-decoration: none;
+}
+
+.contact a:hover,
+.skills a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  main {
+    flex-direction: column;
+  }
+}
+
+a {
+  text-decoration: none;
+}
+
+.foo {
+  margin: 10px;
+  padding: 5px;
+  text-align: center;
+  font-size: 1.5rem;
+}
